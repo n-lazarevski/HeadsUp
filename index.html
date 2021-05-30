@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heads Up</title>
+    <link rel="stylesheet" href="./stylesheet.css">
+</head>
+<body>
+    <!--Navbar-->
+    <div class="navbar">
+        <div class="container flex">
+            <h1 class="logo">Heads Up</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    
+    <!--Showcase-->
+    <section class="showcase">
+        <div class="container grid">
+            <div class="showcase-text">
+                <h1>Welcome</h1>
+                <div>
+                    Sign up and get immediate notifications of events in your area, don't miss out!
+                </div>
+            </div>
+            <div class="showcase-form card">
+                <h2>Enter Info</h2>
+                <form>
+                    <div class="form-control">
+                        <input type="email" name="email" placeholder="Email" required>
+                    </div>
+                    <div class="form-control">
+                        <input type="tel" name="phone" placeholder="Phone-number" pattern="[0-9]{9}">
+                    </div>
+                    <div class="form-control">
+                        <input type="checkbox" id="promotions" name="promotions" value="promotion">
+                        <label for="promotions"> Promotions</label><br>
+                        <input type="checkbox" id="emergencies" name="emergencies" value="emergency">
+                        <label for="emergencies"> Emergency alerts</label><br>
+                        <input type="checkbox" id="traffic" name="traffic" value="traffic">
+                        <label for="traffic"> Traffic</label><br>
+                    </div>
+                    <input type="submit" value="Send" class="btn btn-primary">
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!--Categories-->
+    <section class="categories">
+        <div class="card category">
+            <h2>Promotions</h2>
+            <p>
+                Get updates on the latest promotional activities around you.
+                This includes sales, new store or mall openings, giveaways and so much more.
+            </p>
+            <img src="./images/iconfinder_Brochure_7038111.png">
+        </div>
+        <div class="card category">
+            <h2>Emergency alerts</h2>
+            <p>
+                Recieve alerts for emergencies around you. 
+                These can range from crimes, protests and fires to natural disasters.
+                Choose this option to get a heads up and be prepared for anything.
+            </p>
+            <img src="./images/iconfinder_caution_1055096.png">
+        </div>
+        <div class="card category">
+            <h2>Traffic</h2>
+            <p>
+                Be up to date with the status of the roads.
+                With this option you get instant notifications about blocked roads,
+                traffic accidents, construction and anything to make planning trips
+                an easier experience.
+             </p>
+             <img src="./images/iconfinder_Rounded_-_High_Ultra_Colour16_-_Traffic_Lights_2250038.png">
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="bottom">
+            <p>Skopje, Macedonia</p>
+            <p>&copy 2021 Heads Up</p>
+        </div>
+    </footer>
+</body>
+</html>

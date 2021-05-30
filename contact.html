@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="./stylesheet.css">
+</head>
+<body>
+    <!--Navbar-->
+    <div class="navbar">
+        <div class="container flex">
+            <h1 class="logo">Heads Up</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <!--Contact-->
+    <div id="contact" class="container">
+        <div>
+            <p>Fill in the inquiry form bellow to send us a message</p>
+            <fieldset class="anketa">
+                <legend>Your details</legend>
+                <label>Name:
+                    <input type="text" name="name"></label> <br/><br/>
+                <label>Email:
+                    <input type="text" name="Emial"></label>
+            </fieldset><br/>
+            <fieldset class="anketa">
+                <legend>Your review:</legend>
+                <p>Message:</p>
+                <textarea name="comments" cols="60" rows="10" placeholder="Give us some feedback"></textarea><br/><br/>
+                <p>Would you visit again?</p>
+                <input type="checkbox" name="service" value="yes">Yes
+                <input type="checkbox" name="service" value="no">No
+                <input type="checkbox" name="service" value="maybe">Maybe <br/>
+                <br/>
+    
+                <input type="submit" value="Submit review" class="btn btn-primary"/>
+            </fieldset>
+        </div>
+    </div>
+
+    <footer>
+        <div class="bottom">
+            <p>Skopje, Macedonia</p>
+            <p>&copy 2021 Heads Up</p>
+        </div>
+    </footer>
+</body>
+</html>
